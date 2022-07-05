@@ -6,7 +6,7 @@ const router = createRouter({
     history: createWebHistory().baseroutes: [{
         path: '/',
         component: () =>
-            import ('/components/Home.vue')
+            import ('./components/HelloWorld.vue')
     }]
 
 })
